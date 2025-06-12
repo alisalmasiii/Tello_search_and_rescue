@@ -51,3 +51,4 @@ Feel free to make contributions to this repo
 * for instructions to docker build follow: https://github.com/mwsatman/telloGazebo_ros2_galactic
 
 # `Demo Video`
+![Demo](demo.gif)
