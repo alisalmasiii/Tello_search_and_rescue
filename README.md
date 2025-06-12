@@ -23,7 +23,8 @@
   #### Control the drones
   Run the python script
   ```bash
-  python3 search_tello.py ```
+  python3 search_tello.py
+```
 
   Then take-off drone1
   ```bash
