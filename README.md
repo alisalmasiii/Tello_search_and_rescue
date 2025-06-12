@@ -22,7 +22,8 @@
   
   #### Control the drones
   Run the python script
-  ```bash python3 search_tello.py ```
+  ```bash
+  python3 search_tello.py ```
 
   Then take-off drone1
   ```bash
@@ -30,7 +31,10 @@
 ```
 
   Run the second python script
-  python3 lost_tello.py
-
+  ```bash
+python3 lost_tello.py
+```
   Then take-off drone2
-    ros2 service call /drone2/tello_action tello_msgs/TelloAction "{cmd: 'takeoff'}"
+   ```bash
+ros2 service call /drone2/tello_action tello_msgs/TelloAction "{cmd: 'takeoff'}"
+```
