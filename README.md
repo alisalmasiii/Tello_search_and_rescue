@@ -42,10 +42,10 @@ ros2 service call /drone2/tello_action tello_msgs/TelloAction "{cmd: 'takeoff'}"
 # `Future Works`
 Feel free to make contributions to this repo
 
-The project use HSV color filtering to detect tree trucnks along the path and perform a side step avoidance.
-The lawn mower algorithm is used for the path generation
-Aruco markers are used for the Home and Lost drone positions (You can use other detection algorithms to search)
-A single tello is used to search a constrained boundary area. (You can use more Tellos launched from different positions to aid search)
+- The project use HSV color filtering to detect tree trucnks along the path and perform a side step avoidance.
+- The lawn mower algorithm is used for the path generation
+- Aruco markers are used for the Home and Lost drone positions (You can use other detection algorithms to search)
+- A single tello is used to search a constrained boundary area. (You can use more Tellos launched from different positions to aid search)
 
 * world rendering using docker can be limited to software rendering - no hardware acceleration is available immediately, you need to activate it manually. 
 * for instructions to docker build follow: https://github.com/mwsatman/telloGazebo_ros2_galactic
