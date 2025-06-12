@@ -12,13 +12,13 @@
 * Follow the guide from the TIERS git mentioned above
  
   #### Running the scenario
-<pre> ```bash  
+ ```bash  
   cd ~/drone_racing_ros2_ws
     source install/setup.bash
     export GAZEBO_MODEL_PATH=${PWD}/install/tello_gazebo/share/tello_gazebo/models
     source /usr/share/gazebo/setup.sh
     ros2 launch tello_gazebo search_and_rescue.py
-  ``` </pre>
+  ```
   
   #### Control the drones
   Run the python script
